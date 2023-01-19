@@ -1,0 +1,19 @@
+.header{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 24;
+    color:darkgreen;
+}
+
+.message-text{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 24;
+    color:darkgreen;
+}
+
+.table-box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+  }

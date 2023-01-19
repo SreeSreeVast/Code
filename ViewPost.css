@@ -1,0 +1,229 @@
+.viewpost-container{
+    margin-top: 2%;
+}
+
+.section1{
+    /* background-color: lightgreen;
+    padding: 2em 4em 0.5em 4em; */
+    text-align: left;
+}
+
+.top-container{
+    margin: auto auto 3em auto;
+    width: 40%;
+    background-color: white;
+    border: 2px solid lightgray;
+    padding: 0;
+}
+.found-item-container{
+    width:auto;
+}
+.lost-item-container{
+    width:auto;
+}
+.item-type-found{
+    color: darkgreen;
+    text-align: left;
+    margin: auto;
+    width: 60%;
+}
+.item-type-lost{
+    color: palevioletred;
+    text-align: left;
+    margin: auto;
+    width: 60%;
+}
+.h3-item-type{
+    margin-bottom: 0;
+    
+}
+.guidance{
+    margin:0 0 1em 0;
+    padding: 0 20px 0 20px;
+    text-align: left;
+    list-style-position: inside;
+}
+
+.dialog {
+    box-shadow: 0 8px 6px -6px forestgreen;
+    position: static;
+    left: 20%;
+    top: 10%;
+}
+  
+.image-no-popup {
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    margin-top: 2em;
+    width: 300px;
+}
+
+.image-container{
+    width:25%;
+    margin-right:2%;
+    float: left;
+}
+
+.time-container{
+    margin-top: 1em;
+}
+
+.info-container{
+    text-align: left;
+    width:70%;
+    float: right;
+    margin-right: 2%;
+}
+
+.clear-float{
+    /* USED TO CLEAR FLOATS WHICH CAUSES PROBLEMS HNN */
+    clear:both
+}
+
+.line-break{
+    border-top: 2px solid white;
+    margin: 10px 0px 10px 0px;
+}
+
+
+.title{
+    width:40%;
+    float: left;
+    color: white;
+    font-size: xx-large;
+}
+
+.time-posted{
+    font-size: medium;
+    color: white;
+    
+}
+
+.time-updated{
+    font-size: medium;
+    color: white;
+}
+
+.location{
+    font-size:larger;
+    font-weight: bolder;
+    color: white;
+}
+
+.area{
+    margin-bottom: 1em;
+    font-weight: bold;
+    color: white;
+}
+.Description{
+    margin-bottom: 1em;
+    font-weight: bold;
+    color: white;
+}
+
+.bottom-container{
+    margin-top: 4em;
+    margin-left: 2em;
+    text-align: left;
+    color: white;
+}
+
+.question-container{
+    text-align: left;
+    margin-left: 2em;
+    border-top: 2px solid lightgray;
+    width: 50%;
+    padding-top: 1em;
+}
+
+.question{
+    font-size: large;
+    text-decoration:solid;
+    color: white;
+}
+
+#error{
+    color: red;
+}
+
+#inputAnswer{
+    width: 100%;
+    padding: 12px 20px;
+    padding-bottom: 10em;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#submit-button{
+    border-radius: 4px;
+    line-height: 1.133;
+    transition: 150ms ease;
+    transition-property: background-color, border-color, box-shadow, color;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    width: 130px;
+    background-color: limegreen;
+    color: #FFFAF0;
+    padding: 8px 16px 8px 16px;
+    margin: 10px 10px 10px 0px;
+    font-size: 17px;
+}
+
+#submit-button:hover{
+    background-color: forestgreen;
+}
+
+.manage-container{
+    margin-top: 5em;
+}
+
+#label-mine{
+    margin-bottom: 1em;
+}
+
+#delete-button{
+    border-radius: 4px;
+    line-height: 1.133;
+    transition: 150ms ease;
+    transition-property: background-color, border-color, box-shadow, color;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    width: 130px;
+    background-color: lightgray;
+    color: black;
+    padding: 4px 0px 4px 0px;
+    margin-bottom: 2em;
+    font-size: 15px;
+}
+
+#delete-button:hover{
+    background-color: rgb(94, 94, 94);
+    color:white;
+}
+
+.bck {
+    /* Set rules to fill background */
+     min-height: 100%;
+     min-width: 1024px;
+       
+     /* Set up proportionate scaling */
+     width: 100%;
+     height: auto;
+       
+     /* Set up positioning */
+       position:absolute;
+       top: 1;
+       left: 1;
+       background-image: linear-gradient(315deg, #c5dbb8 0%, forestgreen 100%);
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+   }

@@ -1,0 +1,26 @@
+.header{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 24;
+    color:darkgreen;
+}
+
+.answers-header{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 24;
+    color:darkgreen;
+}
+
+.answers-text{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 14;
+    color:black;
+}
+
+.answers-table-box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+}

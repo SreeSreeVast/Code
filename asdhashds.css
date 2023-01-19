@@ -1,0 +1,326 @@
+.post-introduction{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color:darkgreen;
+    margin-bottom: 0;
+    margin-top: 2em;
+}
+
+
+.Post{
+    text-align: center;
+}
+
+.ItemForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.ItemForm input{
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.buttonpost{
+    border-width: 3px;
+    width: 150px;
+    height: 50px;
+    background-color: lavenderblush;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.buttonpost:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+.imgupload{
+    max-width: 100%;
+    max-height: 50vh;
+    margin: auto;
+}
+
+#clipArt{
+    background-color: black;
+    width: 250px;
+    height: 200px;
+    display: inline-block; /* makes it fit in like an <img> */
+    background-size: cover; /* or contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/*=========================================================================*/
+
+.create-post-container{
+    margin-top: 0;
+}
+
+.form-container{
+	max-width:50%; /* How wide the forms are */
+	margin: 50px auto;
+	background:#fff;
+	border-radius:2px;
+	padding:20px;
+}
+
+.form-container ul{
+    list-style:none;
+	padding:0;
+	margin:0;	
+}
+
+.form-container li{
+	display: block;
+	padding: 9px;
+	border:1px solid forestgreen;
+    border-top-style: solid;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    border-left-style: solid;
+	margin-bottom: 30px;
+	border-radius: 3px;
+    /* box-shadow: 0 3px 10px rgba(0,0,0,0.2), inset 0 -3px 0 rgba(0,0,0,0.22); */
+
+}
+
+.form-container li > label{
+	display: block;
+	float: left;
+    /* text-decoration: underline;
+    text-decoration-style: double; */
+	margin-top: -19px;
+	background: #FFFFFF;
+	height: 14px;
+	padding: 2px 5px 12px 5px;
+	color: black;
+	font-size: 18px;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-container li > span{
+    background: forestgreen;
+	display: block;
+	padding: 3px;
+	margin: 0 -9px -9.5px -9px;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+.form-container .input-field{
+    padding: 0px 0px;
+    display: flex;
+    align-self: left;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #cacaca;
+    background-color: #fefefe;
+    box-shadow: inset 0 1px 2px rgb(10 10 10 / 10%);
+    font-family: inherit;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 0;
+    color: #0a0a0a;
+    transition: box-shadow .5s,border-color .25s ease-in-out;
+}
+
+.form-container .input-field::placeholder{
+    color: grey;
+    text-align: left;
+    font-size: medium;
+}
+
+.input-field{
+    resize: none; /* WITHOUT THIS USER CAN RESIZE AND MESS THINGS UP !!!!!!!!! HNN */
+}
+
+.error{
+    color:red;
+}
+
+/* Formerly for combo box, replaced by radio buttons HNN */
+/* #type-box{
+    float:left;
+    margin: auto;
+} */
+
+/* RADIO BUTTON FOUND VS LOST=======================================*/
+
+.post-radio-container{
+    float:left;
+    text-align: center;
+    top: 50%;
+    margin-top: 0;
+    margin-bottom: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.post-radio-container2{
+    float:left;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+
+    margin-top: 0;
+    margin-bottom: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.post-radio-label{
+    display: inline-block;
+    padding: 1em 2em;
+    margin: 0.5em;
+    cursor: pointer;
+    color: black;
+    border-radius: 0.25em;
+    background: #efefef;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2), inset 0 -3px 0 rgba(0,0,0,0.22);
+    transition: 0.3s;
+    user-select: none;
+}
+
+.post-radio-label:hover{
+    background: lightgray;
+    color: darken(#292929, 50%);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2), inset 0 -3px 0 rgba(0,0,0,0.32);
+}
+
+.post-radio-label:active{
+    transform: translateY(2px);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2), inset 0px -1px 0 rgba(0,0,0,0.22); 
+}
+
+.post-radio-input:checked + .post-radio-label{
+    background: limegreen;
+    color: white; /* If you want different color when checked but not hovered for text HNN */
+}
+
+.post-radio-input:checked:hover + .post-radio-label:hover{
+    background: #2bac2b;
+    color: white;
+}
+
+.hidden{
+    display: none;
+}
+/*====================================================*/
+
+#title-box{
+    height:3em;
+}
+
+#description-box{
+    height: 10em;
+}
+
+.post-combo-country{
+    width: 100%;
+    height: 2em;
+    margin-top: 0.5em;
+    font-size: 15px;
+    padding-left: 1em; /* Shift text over right slightly HNN */
+}
+
+.post-combo-region{
+    width: 100%;
+    height: 2em;
+    font-size: 15px;
+    padding-left: 1em; /* Shift text over right slightly HNN */
+}
+
+#area-box{
+    height: 10em;
+}
+
+#question1-box{
+    height: 4em;
+}
+
+#answer1-box{
+    height: 4em;
+}
+
+#tags-box{
+    height: 3em;
+}
+.image-button{
+    margin-bottom: 1em;
+}
+
+.submit-button{
+    border-radius: 4px;
+    line-height: 1.133;
+    transition: 150ms ease;
+    transition-property: background-color, border-color, box-shadow, color;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    width: 130px;
+    background-color: limegreen;
+    color: #FFFAF0;
+    padding: 8px 16px 8px 16px;
+    margin: 10px 10px 10px 0px;
+    font-size: 17px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2), inset 0 -3px 0 rgba(0,0,0,0.22), 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+
+}
+
+.submit-button:hover{
+    background-color: forestgreen;
+}
+
+.clear-float{
+    /* USED TO CLEAR FLOATS WHICH CAUSES PROBLEMS HNN */
+    clear:both
+}
+
+.post-image-container{
+    margin-top: 1em;
+}
+
+.post-image-preview{
+    width: 50%;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2), inset 0 -3px 0 rgba(0,0,0,0.22);
+
+}
+
+.post-image-file-name-label{
+    margin-bottom: 1em;
+}
+
+.bg-u {
+    /* Set rules to fill background */
+     min-height: 100%;
+     min-width: 1024px;
+       
+     /* Set up proportionate scaling */
+     width: 100%;
+     height: auto;
+       
+     /* Set up positioning */
+       position:absolute;
+       top: 1;
+       left: 1;
+       background-image: linear-gradient(315deg, #c5dbb8 0%, forestgreen 100%);
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+   }

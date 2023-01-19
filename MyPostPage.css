@@ -1,0 +1,116 @@
+.post-mine{
+    background-color: white;
+    background-size: cover;
+    margin: 60px;
+
+}
+.user{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:500%;
+    font-weight:900 ;
+    color:darkgreen;
+}
+.greet{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:150%;
+    color:grey;
+}
+.post-mine{
+    display: block;
+    align-self: flex-end;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    max-width:70%;
+	margin:50px auto;
+	background:#fff;
+	border-radius:2px;
+	padding:100px;
+}
+#field-show2{
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-collapse:separate;
+  }
+  #sort2:hover{
+    color: black;
+    cursor: pointer;
+  }
+/* .tab{
+    align-self: left;
+    max-width:100%;
+	margin:50px auto;
+	background:#fff;
+	border-radius:2px;
+	padding:20px;
+}
+.th-tab {
+    width: 100em;
+    background-color: limegreen;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+} */
+
+.image{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 50px;
+}
+.image:hover {
+    box-shadow: 0 0 2px 1px rgba(70, 255, 0);
+}
+
+#posts {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border-collapse:separate;
+    width: 100%;
+  }
+  
+#posts td, #posts th {
+    border: 0px solid #ddd;
+    padding: 10px auto;
+  }
+  
+#posts tr:nth-child(even){background-color: #f2f2f2;}
+  
+#posts tr:hover {background-color: #ddd;}
+  
+#posts th {
+    padding: 10px;
+    text-align: center;
+    background-color: forestgreen;
+    color: white;
+  }
+
+  .mine{
+      display: flex;
+        text-align: left; 
+  }
+
+  .p {
+    /* Set rules to fill background */
+     min-height: 100%;
+     min-width: 1024px;
+       
+     /* Set up proportionate scaling */
+     width: 100%;
+     height: auto;
+       
+     /* Set up positioning */
+       position: absolute;
+       top: 5;
+       left: 5;
+       background-image: linear-gradient(315deg, #c5dbb8 0%, forestgreen 100%);
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+   }
